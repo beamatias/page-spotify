@@ -10,26 +10,3 @@
         display: none;
     }
 }
-
-@media screen and (max-width: 425px) {
-    .playlist {
-        display: none;
-    }
-
-    .playlist-container {
-        width: 100%;
-        height: auto;
-    }
-
-    .sidebar {
-        width: 342px;
-    }
-
-    .offer__list-item {
-        grid-template-columns: 1fr;
-    }
-
-    .offer__scroll-container {
-        overflow-y: visible;
-    }
-}
